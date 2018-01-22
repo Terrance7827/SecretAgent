@@ -25,3 +25,11 @@ body{
   font-family: Helvetica;
   font-size: 1rem;
 }
+.header-body{
+  display:flex;
+  height: 25rem;
+  background-image: url("../resources/moto.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
