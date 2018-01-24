@@ -2,7 +2,11 @@ html{
   font-size: 18px;
 }
 body{
-
+  font-family: Helvetica;
+}
+.container{
+  max-width: 960px;
+  margin: 0 auto;
 }
 .logo{
   background-color: black;
@@ -10,22 +14,19 @@ body{
   flex-direction: row;
   align-items: center;
 }
-.logo-img{
-  margin: auto 1rem auto 0.5rem;
-}
-.logo-img img{
+.logo img{
   height: 1.5rem;
   width: auto;
+  margin: auto 1rem auto 0.5rem;
 }
 .logo-header{
   margin-top: 0.66rem;
   margin-bottom: 0.66rem;
   color: white;
   font-weight: bold;
-  font-family: Helvetica;
   font-size: 1rem;
 }
-.header-body{
+.main-banner{
   display:flex;
   height: 25rem;
   background-image: url("../resources/moto.jpeg");
